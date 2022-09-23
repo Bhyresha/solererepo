@@ -1,9 +1,0 @@
-package dayone.helloword;
-
-public class Employee {
-int emId;
-string name;
-double salary;
-localDate dateofBirth;
-private Adress adress;//Has A relationship 
-}
