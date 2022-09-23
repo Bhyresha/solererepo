@@ -1,0 +1,48 @@
+package dayone.helloword;
+
+import java.time.LocalDate;
+
+public class Employee {
+int emId;
+String name;
+double salary;
+LocalDate dateofBirth;
+private Address address; //Has A relationship
+
+public Employee() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+public int getEmId() {
+	return emId;
+}
+public void setEmId(int emId) {
+	this.emId = emId;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public double getSalary() {
+	return salary;
+}
+public void setSalary(double salary) {
+	this.salary = salary;
+}
+public LocalDate getDateofBirth() {
+	return dateofBirth;
+}
+public void setDateofBirth(LocalDate dateofBirth) {
+	this.dateofBirth = dateofBirth;
+}
+public Address getAddress() {
+	return address;
+}
+public void setAddres(Address address) {
+	this.address = address;
+}
+
+
+}

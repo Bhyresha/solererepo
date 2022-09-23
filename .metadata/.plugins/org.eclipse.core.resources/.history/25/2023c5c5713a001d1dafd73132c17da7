@@ -1,0 +1,17 @@
+package calculator;
+
+import java.util.Scanner;
+
+public class calculatorMain {
+
+	public static void main (String[] args) {
+		Scanner SC=new Scanner (System.in);
+		System.out.println("eneter First no");
+		
+		double A=SC.nextDouble();
+		System.out.println("Enter Second no ");
+		
+		double b=SC.nextDouble();
+		
+	}
+}

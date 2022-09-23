@@ -1,0 +1,10 @@
+package dayone.helloword;
+
+public class HRMSapp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

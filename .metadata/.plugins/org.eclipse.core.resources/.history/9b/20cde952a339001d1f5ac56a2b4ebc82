@@ -1,0 +1,9 @@
+package dayone.helloword;
+
+public class Employee {
+int emId;
+String name;
+double salary;
+localDate dateofBirth;
+private Addres addres; //Has A relationship 
+}

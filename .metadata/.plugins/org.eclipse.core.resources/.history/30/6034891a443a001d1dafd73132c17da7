@@ -1,0 +1,10 @@
+package daytwo;
+//abstract method--without body
+public interface CalculateArea {
+
+
+		public int calculateArea(int length, int breadth); 
+
+	}
+
+

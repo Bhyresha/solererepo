@@ -1,0 +1,15 @@
+
+public class Employeedemo {
+
+	public static void main(String[] args) {
+		Employee e1 = new  Employee();
+		Employee e2 = new Employee();
+		
+		e1.setEmpId(1);
+		e2.setEmpId(1);
+		
+		System.out.prinytln(e1.equals(e2));
+		System.out.prinytln(e1.hashCode());
+	System.out.prinytln(e2.hashCode());
+	
+}

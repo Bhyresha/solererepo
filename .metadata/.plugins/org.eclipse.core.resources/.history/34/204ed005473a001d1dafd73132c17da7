@@ -1,0 +1,20 @@
+package daytwo;
+
+public class calculateAreaMain {
+
+	public static void main (String[] args) {
+		
+		CalculateArea calculateArea = new calculateAreaimpl();
+		calculateAreaimpl calArea = new calculateAreaimpl();
+		int result = calArea.calculateArea(10, 2);
+		
+		System.out.println(result);
+		
+		int perimeter = calArea.calculateperimeter(10, 2);
+		System.out.println(perimeter);
+		
+					
+
+	}
+}
+// control shift t to check for collection 

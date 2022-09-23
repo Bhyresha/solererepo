@@ -1,0 +1,29 @@
+
+
+	
+	import java.util.Objects;
+	
+	public class Employee {
+		private int emp_id;
+		private String Employee;
+		public int getEmp_id() {
+			return emp_id;
+		}
+		public void setEmp_id(int emp_id) {
+			this.emp_id = emp_id;
+		}
+		public String getEmployee() {
+			return Employee;
+		}
+		public void setEmployee(String employee) {
+			Employee = employee;
+		}
+		
+		
+		
+			
+		
+	}
+	
+
+
